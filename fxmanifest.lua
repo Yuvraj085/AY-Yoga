@@ -1,8 +1,11 @@
+-------------------------------------
+--<!>-- Shadow | Pegasus --<!>--
+--------------------------------------
 fx_version 'cerulean'
 game 'gta5'
 name 'AY-Yoga'
 author 'AY-Framework'
-description 'Yoga Script'
+description 'Immersive Yoga Activity with Animations and Benefits for QBCore'
 version '4.4.4.4'
 lua54 'yes'
 
