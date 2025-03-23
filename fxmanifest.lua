@@ -5,8 +5,8 @@ fx_version 'cerulean'
 game 'gta5'
 name 'AY-Yoga'
 author 'AY-Framework'
-description 'Immersive Yoga Activity with Animations and Benefits for QBCore'
-version '4.4.4.4'
+description 'Advanced Yoga System with Multiple Locations for QBCore'
+version '1.0.0'
 lua54 'yes'
 
 shared_scripts {
@@ -14,7 +14,7 @@ shared_scripts {
     'shared/*.lua'
 }
 
-client_script {
+client_scripts {
     '@PolyZone/client.lua',
     '@PolyZone/BoxZone.lua',
     '@PolyZone/EntityZone.lua',

@@ -1,45 +1,51 @@
 # 🧘 AY-Yoga
 
-AY-Yoga is a lightweight and optimized yoga script for the FiveM QBCore framework. It allows players to perform relaxing yoga activities and reduce stress levels, enhancing the immersive roleplay experience on your server.
+AY-Yoga is a lightweight yoga script for the FiveM QBCore framework that enables players to perform yoga activities and reduce stress levels in-game.
 
 ## 🚀 Features
-- ✅ **Multiple Yoga Positions** - Perform various yoga poses with fluid animations.
-- ✅ **Stress Relief System** - Reduce stress levels through relaxing yoga sessions.
-- ✅ **Target System Integration** - Seamless interaction using qb-target.
-- ✅ **Configurable Blip Locations** - Customize and add yoga locations easily.
-- ✅ **DrawText Support** - Display clear instructions using DrawText.
-- ✅ **Progress Bar Integration** - Visualize the yoga session with a smooth progress bar.
+- ✅ **4 Yoga Positions** - Fixed yoga locations with smooth animations
+- ✅ **Stress Relief System** - Reduce stress levels (10-25 points per session)
+- ✅ **Target Integration** - Optional qb-target system support
+- ✅ **Configurable Blips** - Optional map markers for yoga locations
+- ✅ **DrawText Support** - Customizable interaction text
+- ✅ **Progress Bar System** - Visual feedback during yoga sessions
 
 ## 📦 Dependencies
-Ensure the following resources are installed:
+Required resources:
 - [QBCore Framework](https://github.com/qbcore-framework/qb-core)
 - [ox_lib](https://github.com/overextended/ox_lib)
 - [PolyZone](https://github.com/mkafrin/PolyZone)
-- [qb-target (Optional)](https://github.com/qbcore-framework/qb-target)
+- [qb-target](https://github.com/qbcore-framework/qb-target) (Optional)
 
 ## 🛠️ Installation
-1. **Download the Resource:** Get the latest version from the repository.
-2. **Add to Server:** Place `AY-Yoga` into your `resources` folder.
-3. **Enable Resource:** Add `ensure AY-Yoga` to your `server.cfg`.
-4. **Configure:** Adjust settings in `shared/config.lua`.
+1. Download the resource
+2. Place in your resources folder
+3. Add `ensure AY-Yoga` to server.cfg
+4. Configure in `shared/config.lua`
 
 ## ⚙️ Configuration
-You can modify the following options in `config.lua`:
-- **Enable/Disable Text Drawing** - Customize DrawText visibility.
-- **Customize DrawText Message** - Change the displayed instructions.
-- **Toggle Target System** - Choose to enable or disable the target system.
-- **Toggle Debug PolyZone** - Debug your zones with visual markers.
-- **Adjust Yoga Positions** - Add or modify yoga animations.
-- **Configure Blip Locations** - Enable, disable, or customize blip markers.
+Adjust in `config.lua`:
+- `EnableTextDraw` - Toggle text UI
+- `DrawTextYoga` - Customize interaction text
+- `YogaTarget` - Enable/disable target system
+- `YogaDebugPoly` - Toggle debug polygons
+- `YogaPlads1-4` - Set yoga position coordinates
+- `YogaBlips` - Toggle map markers
+- `YogaBlipsLocation` - Set blip location
 
 ## 📝 Usage
-1. Visit a yoga location.
-2. If the target system is enabled, interact using it.
-3. If the target system is disabled, press **[E]** to start yoga.
-4. Complete the yoga session to reduce stress.
+1. Find a yoga spot (marked on map if enabled)
+2. With target system:
+   - Use the interaction point
+3. Without target system:
+   - Press [E] when prompted
+4. Complete the animation to reduce stress
 
 ## 💡 Support
-Encounter any issues or have suggestions? Create an issue on the [GitHub Repository](https://github.com/Yuvraj085/AY-Yoga/issues) for assistance.
+For issues or suggestions, create an issue in our GitHub repository.
 
 ## 👤 Credits
-Created by **AY-Framework**. Special thanks to the FiveM community for continuous support.
+- Created by **AY-Framework**
+- Special thanks to Shadow Pegasus
+- FiveM Community Contributors
+
